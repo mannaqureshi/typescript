@@ -1,0 +1,20 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server db.json -w",
+    "client": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.19.1"
+  }
+}

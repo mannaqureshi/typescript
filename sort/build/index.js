@@ -1,0 +1,22 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var NumbersCollection_1 = require("./NumbersCollection");
+var Character_1 = __importDefault(require("./Character"));
+var LinkedList_1 = require("./LinkedList");
+var numberCollection = new NumbersCollection_1.NumbersCollection([1, 5, -2, 6, -1]);
+numberCollection.sort();
+console.log(numberCollection.data);
+var charCollection = new Character_1.default("mani");
+charCollection.sort();
+console.log(charCollection.data);
+var list = new LinkedList_1.LinkedList();
+list.add(2);
+list.add(-2);
+list.add(46);
+list.add(31);
+list.add(-62);
+list.sort();
+list.print();
